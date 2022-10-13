@@ -1,8 +1,7 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import "github.com/aristotelesbr/api-go-gin/routes"
 
 func main() {
-	router := gin.Default()
-	router.Run(":8000")
+	routes.HandleRequest()
 }
